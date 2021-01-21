@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f3e84892ad50204785e267a43ffd0d8",
+    "content-hash": "0656505385efded5de8658b8aefa3299",
     "packages": [
         {
             "name": "composer/package-versions-deprecated",
@@ -7473,6 +7473,56 @@
         }
     ],
     "packages-dev": [
+        {
+            "name": "laravel/homestead",
+            "version": "v11.4.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/homestead.git",
+                "reference": "41a628deed9b601ee80689cf3ae0815195b5040f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/homestead/zipball/41a628deed9b601ee80689cf3ae0815195b5040f",
+                "reference": "41a628deed9b601ee80689cf3ae0815195b5040f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4 || ^8.0",
+                "symfony/console": "~5.1",
+                "symfony/process": "~5.1",
+                "symfony/yaml": "~5.1"
+            },
+            "require-dev": {
+                "dms/phpunit-arraysubset-asserts": "^0.2.0",
+                "phpunit/phpunit": "^9"
+            },
+            "bin": [
+                "bin/homestead"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Homestead\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "A virtual machine for web artisans.",
+            "support": {
+                "issues": "https://github.com/laravel/homestead/issues",
+                "source": "https://github.com/laravel/homestead/tree/v11.4.0"
+            },
+            "time": "2020-11-24T17:59:52+00:00"
+        },
         {
             "name": "nikic/php-parser",
             "version": "v4.10.4",
